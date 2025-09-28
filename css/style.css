@@ -9,24 +9,21 @@ nav a:focus{
 }
 
 /*Write selector/rule property to position the default position for the skip class element*/
-.skip{
+.skip a{
      position: absolute;
      top: -65px;
 }
 
 /*Write selector/rule property to position the skip class element when it is in focus*/
 
-.skip a:hover,
 .skip a:focus{
      top: 25px;
 }
 
 /*Write selector/rule property to style all elements when in focus*/
 
-main a:hover,
-main a:focus{
+:focus{
      border: 5px dashed green;
-
 }
 
 /*Write selector/rule property to style the container */
@@ -41,7 +38,6 @@ main a:focus{
 
 .container img{
      max-height: 675px;
-     width: 100%;
 }
 
 
@@ -158,6 +154,7 @@ main a:focus{
 
      .text-block{
           max-height: 235px;
+          overflow: hidden;
      }
 
 }
