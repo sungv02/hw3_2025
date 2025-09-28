@@ -44,7 +44,7 @@ nav a:focus{
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 
 .container > :first-child{
-     background-image: url(/images/header.jpg);
+     background-image: url("/images/header.jpg");
      grid-column: 1/-1;
 }
 
